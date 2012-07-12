@@ -10,8 +10,8 @@
                     var weight = $('input#bullet_weight').val();
                     var fps = $('input#bullet_fps').val();
                     var diameter = $('input#bullet_diameter').val();
-                    $('td#ftlbs').text(parseInt(footPound(weight, fps)));
-                    $('td#tko').text(parseInt(taylorKO(weight, diameter, fps)));
+                    $('td#ftlbs').text(footPound(weight, fps));
+                    $('td#tko').text(taylorKO(weight, diameter, fps));
                 }); 
             });
         </script>
